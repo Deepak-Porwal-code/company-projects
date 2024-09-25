@@ -1,0 +1,462 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: linear-gradient(to right,rgb(2, 129, 255),rgb(255, 110, 134));
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+    background: linear-gradient(to right,rgb(2, 129, 255),rgb(255, 110, 134));
+}
+header {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    border: 0;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(40, 168, 215);
+    z-index: 3;
+}
+.logo {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    left: 0;
+    padding-left: 30px;
+}
+.home {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.home:hover{
+    text-decoration: underline;
+}
+.Employleelist {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+.Employleelist:hover{
+    text-decoration: underline;
+}
+.logout {
+    width: 275px;
+    position: fixed;
+    right: 0;
+    font-size: 1.3rem;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-evenly;
+    color: white;
+}
+.logout button {
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+    padding-left: 5px;
+    border: 0;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(0, 76, 255);
+}
+.logout button:hover{
+    background-color:rgb(0, 65, 216);
+}
+.leftcorner {
+    height: 800px;
+    width: 210px;
+    position: fixed;
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 60, 200);
+    color: white;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+@media only screen and (max-width:1100px){
+    .leftcorner {
+        display: none;
+    }
+}
+.main {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right,rgb(2, 129, 255),rgb(255, 110, 134));
+}
+
+.leftoption {
+    position: relative;
+    top: 100px;
+    line-height: 40px;
+    color: white;
+}
+.leftpoint1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftpoint1:hover{
+    text-decoration: underline;
+}
+.leftpoint2 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftpoint2:hover{
+    text-decoration: underline;
+}
+.leftpoint3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftpoint3:hover{
+    text-decoration: underline;
+}
+.leftpoint4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftpoint4:hover{
+    text-decoration: underline;
+}
+
+.centre p {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.centre {
+    line-height: 20px;
+    padding: 50px;
+    text-align: left;
+    padding-top: 150px;
+    padding-left: 280px;
+    color: white;
+    display: none;
+}
+.form {
+    height: 600px;
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    left: 30%;
+    top: 100px;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.formsub {
+    width: 100%;
+    height: 90%;
+    line-height: 40px;
+    display: inline-block;
+    text-align: left;
+    line-height: 30px;
+    position: relative;
+    left: 12%;
+}
+.form h1 {
+    margin-top: 20px;
+    text-align: center;
+}
+.point1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.point2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.point3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.point4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.point5 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    height: 30px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.name::placeholder{
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+}
+.email{
+    height: 30px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.email::placeholder{
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+}
+.number{
+    height: 30px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.number::placeholder{
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+}
+.Department{
+    height: 30px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-radius: 5px;
+}
+.Department::placeholder{
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+}
+.Gender{
+    height: 30px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+.Gender::placeholder{
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+}
+.Course{
+    height: 30px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.Course::placeholder{
+    font-size: 1.1rem;
+    text-align: center;
+    color: black;
+}
+.formsub input {
+    font-size: 1.1rem;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formbutton {
+    height: 40px;
+    width: 75%;
+    font-size: 1.1rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border: 0;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(23, 23, 237);
+    color: whitesmoke;
+    position: relative;
+    bottom: 90px;
+    padding-left: 20px;
+}
+.Department{
+    font-size: 1.1rem;
+}
+.option1 {
+    font-size: 1.1rem ;
+}
+.option2 {
+    font-size: 1.1rem ;
+}
+.option3 {
+    font-size: 1.1rem ;
+}
+.option4 {
+    font-size: 1.1rem ;
+}
+.option5 {
+    font-size: 1.1rem ;
+}
+.Genderoption {
+    display: flex;
+    align-items: center;
+}
+.Male {
+    width: 70px;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: space-evenly;
+}
+
+.Female {
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+.coursecheckbox {
+    display: flex;
+    align-items: center;
+}
+.MCA {
+    width: 80px;
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: space-evenly;
+}
+
+.BCA {
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+.BSC {
+    width: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+input.Course {
+    height: 15px;
+    width: 15px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    margin-top: 6px;
+}
+.notificationsubmit{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.submitpoint1{
+    height: 200px;
+    width: 400px;
+    position: fixed;
+    top: 28%;
+    left: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.submitpoint1 img {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+}
+.notificationsubmit p {
+    font-size: 2rem;
+    margin-top: 150px;
+    font-weight: bold;
+    color: black;
+    color: white;
+}
+.notificationsubmit .topic {
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 230px;
+    position: fixed;
+    color: white;
+
+}
+.mainsub {
+    display: flex;
+}
+table#employeeTable {
+    width: 84%;
+    position: fixed;
+    margin-top: 81px;
+    margin-left: 212px;
+}
+
+table#employeeTable th {
+    border-style: solid;
+}
+
+th.imgth {
+    width: 200px;
+    border-style: solid;
+    text-align: center;
+}
+
+#employeeData {
+    border-style: solid;
+}
+td {
+    text-align: center;
+}
