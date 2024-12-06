@@ -1,0 +1,402 @@
+@media screen and (min-width:1000px) and (max-width:1200px){
+    .title1 {
+        height: 100px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .PART1 {
+        display: inline-block;
+        position: relative;
+        left: -150PX;
+        top: -84%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2rem;
+        color: white;
+    }
+    .PART2 {
+        display: inline-block;
+        position: relative;
+        left: -140px;
+        top: -84%;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 3.5rem;
+        color: white;
+    }
+    .part4 {
+        font-size: 4.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .part3 {
+        font-size: 3rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .title {
+        height: 100PX;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .poster {
+        height: 500px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .image1 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image2 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image3 img {
+        width: 100%;
+        height: 50%;
+    }
+    .poster1, .poster2, .poster3 {
+        height: 75%;
+        width: 280px;
+    }
+    .PART6 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        padding: 0 20px;
+        position: relative;
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART9 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        padding: 0 20px;
+        /* left: 20px; */
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART8 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        padding: 0 20px;
+        /* left: 20px; */
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+}
+@media screen and (min-width:700px) and (max-width:1000px){
+    .part4 {
+        font-size: 3.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .part3 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .poster {
+        height: auto;
+        display: flex;
+        padding: 10px 0;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .image1 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image2 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image3 img {
+        width: 100%;
+        height: 50%;
+    }
+    .poster1, .poster2, .poster3 {
+        height: 75%;
+        width: 280px;
+    }
+    .PART5 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART7 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART6 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        padding: 0 20px;
+        /* left: 20px; */
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART8 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        /* left: 20px; */
+        padding: 0 20px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART9 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        padding: 0 20px;
+        /* left: 20px; */
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART1, .PART2 {
+        left: 20px;
+        font-size: 2.5rem;
+    }
+    
+}
+@media screen and (min-width:500px) and (max-width:700px){
+    .part4 {
+        font-size: 3.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .part3 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .poster {
+        height: auto;
+        display: flex;
+        padding: 10px 0;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .image1 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image2 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image3 img {
+        width: 100%;
+        height: 50%;
+    }
+    .poster1, .poster2, .poster3 {
+        height: 75%;
+        width: 280px;
+    }
+    .PART5 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART7 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART6 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: .9rem;
+        padding: 20px 20px;
+        /* left: 20px; */
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART8 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: .9rem;
+        padding: 20px 20px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART9 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: .9rem;
+        padding: 0px 20px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART1, .PART2 {
+        left: 20px;
+        font-size: 2rem;
+    }
+    
+}
+@media screen and (min-width:320px) and (max-width:500px){
+    .part4 {
+        font-size: 2.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .part3 {
+        font-size: 1rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: black;
+    }
+    .poster {
+        height: auto;
+        display: flex;
+        padding: 10px 0;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .image1 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image2 img {
+        width: 100%;
+        height: 50%;
+    }
+    .image3 img {
+        width: 100%;
+        height: 50%;
+    }
+    .poster1, .poster2, .poster3 {
+        height: 75%;
+        width: 280px;
+    }
+    .PART5 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART7 {
+        font-size: 2rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        left: 30px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART6 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: .9rem;
+        padding: 20px 20px;
+        /* left: 20px; */
+        top: 20PX;
+        color: white;
+        background-color: rgb(56, 135, 4);
+    }
+    .PART8 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: .9rem;
+        padding: 20px 20px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART9 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        position: relative;
+        font-size: .9rem;
+        padding: 0px 20px;
+        top: 20PX;
+        color: white;
+        background-color: rgb(140, 31, 31);
+    }
+    .PART1, .PART2 {
+        left: 20px;
+        font-size: 1.3rem;
+    }
+    .footer {
+        height: 80px;
+        margin-top: 305px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+    }
+    .contact {
+        height: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border-color: black;
+        border-width: 2px;
+        border-style: solid;
+    }
+}

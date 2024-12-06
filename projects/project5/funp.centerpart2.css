@@ -1,0 +1,1217 @@
+.browserplaylist {
+    height: 489px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.headerprimium {
+    height: 595px;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+
+.centerpart2 {
+    height:100vh;
+    width: 40%;
+}
+.searchbrowser {
+    display: none;
+}
+.planexplain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.explaindefferentplan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.browser {
+    height: 30px;
+    display: inline-block;
+    border: 0;
+    font-size: 1.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.browserplaylist1 {
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+
+.browserplay1 {
+    height: 140px;
+    width: 230px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 21, 199);
+    margin-left: 5px;
+
+}
+.browserplay1 p {
+    position: relative;
+    right: 10px;
+    bottom: 35px;
+    font-size: 1.6rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.browserplay1 img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 15px;
+}
+
+.headerprimium1 {
+    height: 320px;
+    border: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background: linear-gradient(to right,rgb(186, 0, 186),rgb(21, 21, 255));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    
+}
+.primiumtext1 {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.primiumtext2 {
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.primiumtext3 {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-weight: bold;
+    position: relative;
+    bottom: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.plan {
+    display: flex;
+
+    justify-content: space-evenly;
+}
+.individual {
+    height: 45px;
+    width: 240px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+}
+.multiple {
+    height: 45px;
+    width: 170px;
+    border: 0;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 30px;
+}
+.primiumpaid {
+    height: 296px;
+
+}
+.morepaidoption {
+    font-size: 1.1rem;
+    color: white;
+    position: relative;
+    top: 100px;
+}
+.primiumpaidtext1 {
+
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    top: 50px;
+}
+.primiumpaidtext2 {
+    font-size: .95rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-bottom: 5px;
+    position: relative;
+    top: 50px;
+}
+.primiumpaidtext3 {
+    font-size: .95rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 50px;
+}
+.primiumpaidimgsub1 {
+    width: 300px;
+    margin-top: 5px;
+    position: relative;
+    top: 90px;
+    left: 220px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.primiumpaidimgsub2 {
+    width: 300px;
+    border: 0;
+    position: relative;
+    top: 120px;
+    left: 220px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.primiumtext4 {
+    font-size: .7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 30px;
+    font-weight: bold;
+}
+.primiumtext5{
+    color: white;
+
+}
+.primiumpaidimg1{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1 {
+    height: 15px;
+    width: 40px;
+}
+.primiumpaidimg2{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    height: 25px;
+    width: 30px;
+}
+.primiumpaidimg3{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img3 {
+    height: 20px;
+    width: 30px;
+}
+.primiumpaidimg4{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img4 {
+    height: 13px;
+    width: 40px;
+}
+.primiumpaidimg5{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img5 {
+    height: 25px;
+    width: 40px;
+}
+.primiumpaidimg6{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img6 {
+    height: 40px;
+    width: 40px;
+}
+.primiumpaidimg7{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img7 {
+    height: 40px;
+    width: 40px;
+}
+.primiumpaidimg8{
+    height: 35px;
+    width: 60px;
+    border: 0;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img8 {
+    height: 40px;
+    width: 40px;
+}
+.planexplain {
+    margin-top: 150px;
+    
+}
+
+.planexplainsub {
+    height: 180px;
+    width: 250px;
+    border: 0;
+    position: relative;
+    left: 20px;
+}
+.planexplain p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.planexplainsub ul {
+    font-size: 1.1rem; 
+    color: white;
+    align-items: center;
+    text-align: left;
+}
+
+.planlogo {
+    height: 30px;
+    width: 30px;
+}
+.plan1logo p {
+    font-size: 1.2REM;
+    font-weight: bold;
+    
+}
+.plan1 {
+    height: 430px;
+    width: 330px;
+    border: 0;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    background-color: rgb(59,59,59);
+    
+}
+.plan1logo {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 48px;
+    left: 20px;
+}
+.plan1sub1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 159, 10);
+    position: relative;
+    top: 53px;
+    left: 20px;
+}
+.plan1sub2 {
+    height: 50px;
+    width: 280px;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color:rgb(59,59,59) ;
+    border-left-color:rgb(59,59,59) ;
+    border-right-color:rgb(59,59,59) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1 a {
+    color: rgb(170, 170, 170);
+    position: relative;
+    top: 100px;
+    left: 125px;
+}
+.plan1 li {
+    font-size: 1.1rem;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.plan1circle {
+    width: 280px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    color: black;
+    background-color: rgb(186, 254, 83);
+}
+.plan1circle:hover {
+    background-color: wheat;
+}
+.planlogo1 {
+    height: 30px;
+    width: 30px;
+}
+.plan1logo1 p {
+    font-size: 1.2REM;
+    font-weight: bold;
+    
+}
+.plan2 {
+    height: 430px;
+    width: 330px;
+    border: 0;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    background-color: rgb(59,59,59);
+
+}
+.plan1logo1 {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 48px;
+    left: 20px;
+}
+.plan1subpart1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 159, 10);
+    position: relative;
+    top: 53px;
+    left: 20px;
+}
+.plan1sub2 {
+    height: 70px;
+    width: 280px;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color:rgb(59,59,59) ;
+    border-left-color:rgb(59,59,59) ;
+    border-right-color:rgb(59,59,59) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1sub2int {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.plan2 a {
+    color: rgb(170, 170, 170);
+}
+.plan2lasttitile{
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    position: relative;
+    top: 100px;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+.plan2 li {
+    font-size: 1.1rem;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.plan1circle1 {
+    width: 280px;
+    height: 40px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    color: black;
+    background-color: rgb(186, 254, 83);
+}
+.plan1circle1:hover {
+    background-color: wheat;
+}
+.plan3 {
+    height: 430px;
+    width: 330px;
+    border: 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    background-color: rgb(59,59,59);
+
+}
+.plan1logo2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 48px;
+    left: 20px;
+}
+.plan1subpart2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 159, 10);
+    position: relative;
+    top: 53px;
+    left: 20px;
+}
+.plan1sub3 {
+    height: 70px;
+    width: 280px;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color:rgb(59,59,59) ;
+    border-left-color:rgb(59,59,59) ;
+    border-right-color:rgb(59,59,59) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1sub2int {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.plan3 a {
+    color: rgb(170, 170, 170);
+}
+.plan2lasttitile1{
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    position: relative;
+    top: 100px;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+.plan3 li {
+    font-size: 1.1rem;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+.plan1circle2 {
+    width: 280px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    color: black;
+    background-color: rgb(186, 254, 83);
+}
+.plan1circle2:hover {
+    background-color: wheat;
+}
+.plan4 {
+    height: 430px;
+    width: 330px;
+    border: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    background-color: rgb(59,59,59);
+
+}
+.plan1logo3 {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 48px;
+    left: 20px;
+}
+.plan1subpart2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 159, 10);
+    position: relative;
+    top: 53px;
+    left: 20px;
+}
+.plan1sub3 {
+    height: 70px;
+    width: 280px;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color:rgb(59,59,59) ;
+    border-left-color:rgb(59,59,59) ;
+    border-right-color:rgb(59,59,59) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1sub2int {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.plan3 a {
+    color: rgb(170, 170, 170);
+}
+.plan2lasttitile3{
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    position: relative;
+    top: 100px;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+.plan4 li {
+    font-size: 1.1rem;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1circle3 {
+    width: 280px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: 90px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    color: black;
+    background-color: rgb(186, 254, 83);
+}
+.plan1circle2:hover {
+    background-color: wheat;
+}
+.plan5 {
+    height: 430px;
+    width: 330px;
+    border: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    background-color: rgb(59,59,59);
+
+}
+.plan1logo3 {
+    display: flex;
+    align-items: center;
+    color: white;
+    position: relative;
+    top: 48px;
+    left: 20px;
+}
+.centerpart2footsub1 {
+    display: initial;
+}
+.plan1subpart2 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(80, 159, 10);
+    position: relative;
+    top: 53px;
+    left: 20px;
+}
+.plan1sub3 {
+    height: 70px;
+    width: 280px;
+    border-style: solid;
+    border-width: 1px;
+    border-top-color:rgb(59,59,59) ;
+    border-left-color:rgb(59,59,59) ;
+    border-right-color:rgb(59,59,59) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: 1.5rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1sub2int {
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+.plan3 a {
+    color: rgb(170, 170, 170);
+}
+.plan2lasttitile2{
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    position: relative;
+    top: 80px;
+    padding-left: 20px;
+    padding-right:20px ;
+}
+.plan5 li {
+    font-size: 1.1rem;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.plan1circle4 {
+    width: 280px;
+    height: 40px;
+    position: relative;
+    display: flex;
+    top: 70px;
+    left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    color: black;
+    background-color: rgb(186, 254, 83);
+}
+.plan1circle2:hover {
+    background-color: wheat;
+}
+.experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 950px;
+}
+.experiencetext {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    top: 25px;
+}
+.experiencetext p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+.spotifyicon{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 0;
+    border-color: white;
+    background-color: white;
+}
+.topicsub1 {
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topicsub2 {
+    height: 130px;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 54px;
+    background: linear-gradient(to top,rgb(17, 17, 17),rgb(112, 112, 112));
+}
+.topicsub2 pre {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.topicsub1point2 {
+    position: relative;
+    left: 70px;
+} 
+.topicsub1point1 {
+    position: relative;
+    top: 40px;
+    right: 30px;
+}
+.experiencetopic {
+    height: 600px;
+    width: 450px;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic1 {
+    height: 130px;
+    width: 500px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topic2 {
+    height: 90px;
+    width: 500px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.topic2poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic2poin2 {
+    position: relative;
+    left: 35px;
+}
+.topic2sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 54px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic2sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic2:hover {
+    background-color: rgb(77, 76, 76);
+}
+.topic3 {
+    height: 90px;
+    width: 500px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.topic3poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic3poin2 {
+    position: relative;
+    left: 55px;
+}
+.topic3sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic3sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic3:hover {
+    background-color: rgb(77, 76, 76);
+}
+.topic4 {
+    height: 90px;
+    width: 500px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.topic4poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic4poin2 {
+    position: relative;
+    left: 37px;
+}
+.topic4sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic4sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic4:hover {
+    background-color: rgb(77, 76, 76);
+}
+.topic5 {
+    height: 90px;
+    width: 500px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.topic5poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic5poin2 {
+    position: relative;
+    left: 50px;
+}
+.topic5sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 59px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic5sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic5:hover {
+    background-color: rgb(77, 76, 76);
+}
+.topic6 {
+    height: 90px;
+    width: 500px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.topic6poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic6poin2 {
+    position: relative;
+    left: 15px;
+}
+.topic6sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic6sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic6:hover {
+    background-color: rgb(77, 76, 76);
+}
+.topic7 {
+    height: 90px;
+    width: 500px;
+    border-bottom: 1px solid white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.topic7poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic7poin2 {
+    position: relative;
+    left: 40px;
+}
+.topic7sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic7sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic7:hover {
+    background-color: rgb(77, 76, 76);
+}
+.topic8 {
+    height: 90px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    border-bottom: 1px solid white;
+}
+.topic8poin1 {
+    position: relative;
+    right: 30px;
+    text-decoration: underline;
+}
+.topic8poin2 {
+    position: relative;
+    left: 57px;
+}
+.topic8sub1 {
+    height: 90px;
+    width: 130px;
+    position: relative;
+    left: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topic8sub1point1 {
+    color: black;
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.topic8:hover {
+    background-color: rgb(77, 76, 76);
+}
