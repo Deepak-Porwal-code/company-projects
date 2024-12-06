@@ -1,0 +1,760 @@
+@media screen and (min-width:1300px) {
+    header {
+        height: 100px;
+        width: 100%;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 10px 0 40px 1px rgb(236, 236, 236);
+        padding: 10px;
+        background-color: white;
+        z-index: 3;
+    }
+
+    .icon {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .more {
+        padding: 0 25px;
+    }
+
+    .center2 {
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px;
+        border-top-color: white;
+        border-left-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        box-shadow: 0px 10px 40px 1px rgb(236, 236, 236);
+        border-style: solid;
+        justify-content: space-evenly;
+    }
+}
+
+@media screen and (min-width:1000px) and (max-width:1300px) {
+    header {
+        height: 100px;
+        width: 100%;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 10px 0 40px 1px rgb(236, 236, 236);
+        padding: 10px;
+        background-color: white;
+        z-index: 3;
+    }
+
+    .icon {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .itemtext {
+        height: 500px;
+        width: 600px;
+        margin-top: 10px;
+        padding: 0 30px;
+    }
+
+    .more {
+        padding: 0 25px;
+    }
+
+    .item {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/hero_image.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 470px;
+        width: 470px;
+        margin: 0 20px;
+    }
+
+    .center {
+        height: 620px;
+        width: 100%;
+        margin-top: 95px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .point2 {
+        width: 500px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        font-size: 4.5rem;
+
+    }
+
+    .center2 {
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px;
+        border-top-color: white;
+        border-left-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        box-shadow: 0px 10px 40px 1px rgb(236, 236, 236);
+        border-style: solid;
+        justify-content: space-evenly;
+    }
+
+    .menu3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:700px) and (max-width:1000px) {
+    header {
+        height: 100px;
+        width: 100%;
+        border-width: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: 10px 0 40px 1px rgb(236, 236, 236);
+        padding: 10px;
+        background-color: white;
+        z-index: 3;
+    }
+
+    .icon {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 200px;
+        margin-left: 25px;
+    }
+
+    .itemtext {
+        height: 500px;
+        width: 600px;
+        margin-top: 10px;
+        padding: 0 30px;
+    }
+
+    .more {
+        padding: 0 25px;
+    }
+
+    .item {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/hero_image.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 365px;
+        width: 470px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 5px;
+    }
+
+    .center {
+        height: 620px;
+        width: 100%;
+        margin-top: 95px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .point2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        font-size: 3.5rem;
+    }
+
+    .center2 {
+        height: 150px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px;
+        border-top-color: white;
+        border-left-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        box-shadow: 0px 10px 40px 1px rgb(236, 236, 236);
+        border-style: solid;
+        justify-content: space-evenly;
+    }
+
+    .menu3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount3 {
+        font-size: 1.1rem;
+        color: black;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .center2icon1 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/discount.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .center2icon2 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/fresh.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .center2icon3 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/delivery.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .merage1 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 25px;
+    }
+
+    .merage2 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 26px;
+    }
+
+    .merage3 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 26px;
+    }
+
+    .discounttext {
+        width: 180px;
+        font-size: 1.1rem;
+    }
+
+    .point3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .itemtext {
+        height: 500px;
+        width: 600px;
+        margin-top: 10px;
+        padding: 0 9px;
+    }
+
+    .point1 {
+        height: 30px;
+        width: 200px;
+        background-color: rgb(15, 148, 15);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .point4 {
+        height: 35px;
+        width: 105px;
+        font-size: .7rem;
+        background-color: rgb(237, 168, 40);
+        border-color: rgb(237, 168, 40);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 700px) {
+    .itemtext {
+        height: 500px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 9px;
+    }
+
+    .more {
+        padding: 0 0 0 154px;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 160px;
+    }
+    .item {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/hero_image.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 365px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 5px;
+    }
+
+    .center {
+        height: auto;
+        width: 100%;
+        margin-top: 95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .point2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        font-size: 3.5rem;
+    }
+
+    .center2 {
+        height: auto;
+        width: 100%;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px;
+        border-top-color: white;
+        border-left-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        box-shadow: 0px 10px 40px 1px rgb(236, 236, 236);
+        border-style: solid;
+        justify-content: space-evenly;
+    }
+
+    .menu3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount3 {
+        font-size: 1.1rem;
+        color: black;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .center2icon1 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/discount.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .center2icon2 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/fresh.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .center2icon3 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/delivery.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .merage1 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 25px;
+    }
+
+    .merage2 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 26px;
+    }
+
+    .merage3 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 26px;
+    }
+
+    .discounttext {
+        width: 180px;
+        font-size: 1.1rem;
+    }
+
+    .point3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .itemtext {
+        height: 500px;
+        width: 280px;
+        margin-top: 10px;
+        padding: 0 9px;
+    }
+
+    .point1 {
+        height: 30px;
+        width: 200px;
+        background-color: rgb(15, 148, 15);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .point4 {
+        height: 35px;
+        width: 105px;
+        font-size: .7rem;
+        background-color: rgb(237, 168, 40);
+        border-color: rgb(237, 168, 40);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 20px;
+        gap: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(255, 234, 241);
+    }
+
+    .menuimage1 .img1 {
+        width: 435px;
+        height: 435px;
+    }
+
+    img.img2 {
+        width: 205x;
+        height: 205px;
+    }
+
+    img.img3 {
+        width: 205px;
+        height: 205px;
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 400px) {
+    .itemtext {
+        height: 500px;
+        width: 100%;
+        margin-top: 10px;
+        padding: 0 9px;
+    }
+
+    .more {
+        padding: 0 0 0 126px;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 80px;
+        width: 160px;
+    }
+    .item {
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/images/hero_image.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 365px;
+        width: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 5px;
+    }
+
+    .center {
+        height: auto;
+        width: 100%;
+        margin-top: 95px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .point2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: inline-block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0px;
+        font-size: 3.5rem;
+    }
+
+    .center2 {
+        height: auto;
+        width: 100%;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0px;
+        border-top-color: white;
+        border-left-color: white;
+        border-right-color: white;
+        border-bottom-color: white;
+        box-shadow: 0px 10px 40px 1px rgb(236, 236, 236);
+        border-style: solid;
+        justify-content: space-evenly;
+    }
+
+    .menu3 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .discount3 {
+        font-size: 1.1rem;
+        color: black;
+        font-weight: bold;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .center2icon1 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/discount.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .center2icon2 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/fresh.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .center2icon3 {
+        height: 70px;
+        width: 50px;
+        background-image: url(https://practice-project-html-css.vercel.app/Project%205/icons/delivery.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .merage1 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 25px;
+    }
+
+    .merage2 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 26px;
+    }
+
+    .merage3 {
+        height: 100px;
+        width: 175px;
+        display: inline-block;
+        margin-left: 5px;
+        line-height: 26px;
+    }
+
+    .discounttext {
+        width: 180px;
+        font-size: 1.1rem;
+    }
+
+    .point3 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .itemtext {
+        height: 500px;
+        width: 280px;
+        margin-top: 10px;
+        padding: 0 9px;
+    }
+
+    .point1 {
+        height: 30px;
+        width: 200px;
+        background-color: rgb(15, 148, 15);
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    .point4 {
+        height: 35px;
+        width: 105px;
+        font-size: .7rem;
+        background-color: rgb(237, 168, 40);
+        border-color: rgb(237, 168, 40);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 20px;
+        gap: 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: rgb(255, 234, 241);
+    }
+
+    .menuimage1 .img1 {
+        width: 350px;
+        height: 350px;
+    }
+
+    img.img2 {
+        width: 278px;
+        height: 278px;
+    }
+
+    img.img3 {
+        width: 278px;
+        height: 278px;
+    }
+    .menuimagesub2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5px;
+    }
+}
