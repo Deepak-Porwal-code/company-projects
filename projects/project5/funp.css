@@ -1,0 +1,258 @@
+body {
+    background-color:white ;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 65px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:1550px){
+    header {
+        width: 100%;
+    }
+}
+i.fa-brands.fa-spotify::before {
+    font-size: 35px;
+    border: none;
+    color: white;
+    position: absolute;
+    left: 4%;
+    top: 1.7%;
+}
+.icon {
+    background-color: black;
+    border: none;
+}
+.home {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(40,40,40);
+    position: relative;
+    left: 115px;
+}
+i.fa-solid.fa-house::before{
+    font-size: 23px;
+    color: white;
+}
+.searchmain {
+    display: flex;
+    position: relative;
+    left: 120px;
+    transition: .5s;
+}
+.searchtext {
+    height: 48px;
+    width: 400px;
+    background-color: rgb(30,30,30);
+    display: flex;
+    border: 0;
+}
+.searchtext2 {
+    width: 400px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(40,40,40);
+    border-width: 3px;
+    border-color: rgb(33,33,33);
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.search {
+    height: 48px;
+    width: 48px;
+    background-color: rgb(40,40,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+i.fa-solid.fa-magnifying-glass::before {
+    font-size: 22px;
+    color: white;
+
+}
+.files {
+    height: 48px;
+    width: 48px;
+    background-color: rgb(40,40,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+i.fa-solid.fa-folder-open::before{
+    font-size: 22px;
+    color: white;
+}
+.searchmain:hover{
+    transform: scale(1.02);
+}
+.primium {
+    height: 35px;
+    width: 170px;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    border: 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    left: 235px;
+}
+
+.download {
+    height: 25px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    border: 0;
+    position: relative;
+    left: 250px;
+}
+i.fa-regular.fa-circle-down::before {
+    font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    right: 3px;
+}
+.download a {
+    font: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
+.notification {
+    border: 0;
+    background-color: black;
+    position: relative;
+    left: 280px;
+}
+i.fa-regular.fa-bell::before {
+    font-size: 20px;
+    color: white;
+    background-color: black;
+}
+.detail {
+    position: absolute;
+    right: 4%;
+
+}
+.profile {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(33, 33, 33);
+}
+.profile2 {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-color: black;
+    border-style: solid;
+    background-color: rgb(166, 5, 166);
+    font-size: 1rem;
+    font-weight: bold;
+}
+.detailcontainer {
+    position: absolute;
+    right: 0;
+    top: 59px;
+    border-radius: 10px;
+    display: none;
+    transition-delay:10s 15s;
+}
+.detail1 {
+    height: 40px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(33, 33, 33);
+    display: inline-block;
+
+}
+.detail:hover .detailcontainer{
+    display: initial;
+
+}
+.account {
+    position: relative;
+    left: 6px;
+    top: 2px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+}
+.account1 {
+    position: relative;
+    left: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+}
+.account2 {
+    position: relative;
+    left: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+}
+.account3 {
+    position: relative;
+    left: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+}
+.account4 {
+    position: relative;
+    left: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(33, 33, 33);
+}

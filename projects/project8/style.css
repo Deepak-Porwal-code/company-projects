@@ -1,0 +1,297 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f5f5; 
+    font-family: Arial, sans-serif;
+    color: #333333; 
+    cursor: pointer;
+}
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white; 
+}
+.login {
+    height: 70vh;
+    width: 60%;
+    border: 0;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.login:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.img {
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    background-image: url("5865.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.logindetail {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 30px;
+    background-color: Light Blue (#e0f7fa);
+}
+.adjust {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 45px;
+    padding-left: 40px;
+}
+.point1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+}
+.point2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.point3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.email {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.email input:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+.password {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.password input:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+input::placeholder {
+    color: black;
+    text-align: center;
+}
+.remember {
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.check {
+    height: 15px;
+    width: 15px;
+}
+.point4 {
+    font-size: .9rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.Signup {
+    color: #009688;
+    text-decoration: none;
+}
+
+.Signup:hover {
+    text-decoration: underline;
+}
+.email {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.email input:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+.loginbutton {
+    width: 90%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition:0.3s;
+    justify-content: center;
+    background-color: #007bff;
+    color: #ffffff;
+}
+.loginbutton:hover {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+
+
+.Signdetail {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 25px;
+    background-color: Light Blue (#e0f7fa);
+    display: none;
+}
+.adjust1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    line-height: 40px;
+    padding-left: 40px;
+}
+.point1sub {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: black;
+}
+.point2sub {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.point2sub1 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.point3sub {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.namesub {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.namesub input:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+.emailsub {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.emailsub input:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+.passwordsub {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.passwordsub input:focus {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}
+.emailsub1 {
+    height: 30px;
+    width: 75%;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+input::placeholder {
+    color: black;
+    text-align: center;
+}
+.remember {
+    width: 170px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.check {
+    height: 15px;
+    width: 15px;
+}
+.point4sub {
+    font-size: .9rem;
+    font-weight: bold;
+    color: black;
+    text-align: left;
+}
+.Signin {
+    color: #009688;
+    text-decoration: none;
+}
+
+.Signin:hover {
+    text-decoration: underline;
+}
+.signupbutton {
+    width: 88%;
+    padding: 0.75rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition:0.3s;
+    justify-content: center;
+    background-color: #007bff;
+    color: #ffffff;
+}
+.Signupbutton:hover {
+    outline: none;
+    border-color: #0070f3;
+    box-shadow: 0 0 8px rgba(0, 112, 243, 0.2);
+}

@@ -1,0 +1,572 @@
+.centrenotification {
+    height: 595px;
+    align-items: center;
+    text-align: left;
+    font-size: .9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+    display: none;
+}
+.notificationpoints {
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+.notificationtext1 {
+    font-size: 2.5rem;
+    position: relative;
+    top: 60px;
+    left: 30px;
+}
+.notificationtext2 {
+    font-size: .9rem;
+    position: relative;
+    top: 75px;
+    left: 30px;
+    color: rgb(170, 170, 170)
+}
+.notificationtext3 {
+    font-size: 1.5rem;
+    position: relative;
+    top: 120px;
+    left: 30px;
+    height: 60px;
+    width: 670px;
+}
+.point2{
+    height: 30px;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(112, 112, 112);;
+}
+.point3{
+    height: 30px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(112, 112, 112);;
+}
+.song1 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    left: 30px;
+}
+.song1album1 {
+    height: 200px;
+    border-top: 1px solid white;
+    position: relative;
+    top: 120px;
+}
+.song1 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub1 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub1point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub1point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song1 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay1 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album1play2 {
+    position: relative;
+    left: 270px;
+}
+#album1play1 {
+    position: relative;
+    right: 270px;
+}
+.song2 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song2album2 {
+    height: 200px;
+}
+.song2 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub2 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub2point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub2point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song2 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay2 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album2play2 {
+    position: relative;
+    left: 270px;
+}
+#album2play1 {
+    position: relative;
+    right: 270px;
+}
+.song3 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song3album3 {
+    height: 200px;
+}
+.song3 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub3 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub3point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub3point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song3 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay3 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album3play2 {
+    position: relative;
+    left: 270px;
+}
+#album3play1 {
+    position: relative;
+    right: 270px;
+}
+.song4 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song4album4 {
+    height: 200px;
+}
+.song4 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub4 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub4point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub4point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song4 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay4 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album4play2 {
+    position: relative;
+    left: 270px;
+}
+#album4play1 {
+    position: relative;
+    right: 270px;
+}
+.song5 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song5album5 {
+    height: 200px;
+}
+.song5 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub5 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub5point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub5point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song5 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay5 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album5play2 {
+    position: relative;
+    left: 270px;
+}
+#album5play1 {
+    position: relative;
+    right: 270px;
+}
+.song6 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song6album6 {
+    height: 200px;
+}
+.song6 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub6 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub6point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub6point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song6 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay6 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album6play2 {
+    position: relative;
+    left: 270px;
+}
+#album6play1 {
+    position: relative;
+    right: 270px;
+}
+.song7 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song7album7 {
+    height: 200px;
+}
+.song7 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub7 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub7point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub7point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song7 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay7 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album7play2 {
+    position: relative;
+    left: 270px;
+}
+#album7play1 {
+    position: relative;
+    right: 270px;
+}
+.song8 {
+    height: 200px;
+    width: 670px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid white;
+    position: relative;
+    left: 30px;
+}
+.song8album8 {
+    height: 200px;
+}
+.song8 :hover {
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.albumdetail8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.albumdetailsub8 {
+    text-align: left;
+    position: relative;
+    right: 100px;
+    top: 20px;
+    line-height: 22px;
+}
+.albumdetailsub8point {
+    font-size: .7rem;
+    color: rgb(170, 170, 170);
+    
+}
+.albumdetailsub8point:hover{
+    color: white;
+    text-decoration: underline;
+}
+.song8 img {
+    height: 110px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    right: 150px;
+    border-radius: 12px;
+}
+.albumplay8 {
+    position: relative;
+    top: 40px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+}
+
+#album8play2 {
+    position: relative;
+    left: 270px;
+}
+#album8play1 {
+    position: relative;
+    right: 270px;
+}

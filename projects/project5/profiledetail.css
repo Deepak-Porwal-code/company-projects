@@ -1,0 +1,884 @@
+.profiledetail {
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.profileheader {
+    height: 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+}
+.profileimg {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px black;
+    position: relative;
+    top: 20px;
+}
+i#profileicon.fa-regular.fa-user::before {
+    font-size: 4rem;
+    color: rgb(104, 104, 104);
+}
+.profiletext {
+    color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.profilename{
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+
+}
+.profilename2{
+    display: flex;
+    font-weight: bold;
+    color: rgb(137, 137, 137);
+}
+.profilefollow {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.artistsperson {
+    height: 350px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.artistspersonsub{
+    height: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    
+}
+.artisttext {
+    margin-top: 10px;
+
+}
+.artistshow{
+    text-align: end;
+}
+.artistspersonparts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+.person1 {
+    height: 250px;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.person1 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.artistdetail {
+    padding-top: 10px;
+}
+.artistname {
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+    text-align: left;
+}
+.artistnamesub {
+    font-size: .8rem;
+    font-weight: bold;
+}
+.person2 {
+    height: 250px;
+    width: 230px;
+
+}
+.person3 {
+    height: 250px;
+    width: 230px;
+
+}
+
+.trackcollection {
+    height: 350px;
+    width: 100%;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.trackcollectionsub {
+    padding: 40px;
+}
+.tracktext {
+    font-size: 1.5rem;
+    padding: 5px 0;
+}
+.trackshow {
+    text-align: end;
+    margin-bottom: 10px;
+}
+.trackalbum1 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum1:hover{
+    background-color: rgb(76, 76, 76);
+}
+.album1box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album1box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album1box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album1box2detail {
+    position: relative;
+    left: 10px;
+}
+.album1box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album1box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album1box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album1box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum1 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum1:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum2 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album2box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album2box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album2box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album2box2detail {
+    position: relative;
+    left: 10px;
+}
+.album2box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album2box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album2box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album2box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum2 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.tracka2bum1:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum3 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album3box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album3box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album3box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album3box2detail {
+    position: relative;
+    left: 10px;
+}
+.album3box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album3box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album3box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album3box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum3 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum3:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum4 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album4box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album4box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album4box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album4box2detail {
+    position: relative;
+    left: 10px;
+}
+.album4box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album4box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album4box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album4box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum4 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum4:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum5 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album5box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album5box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album5box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album5box2detail {
+    position: relative;
+    left: 10px;
+}
+.album5box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album5box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album5box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album5box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum5 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum5:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum6 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album6box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album6box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album6box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album6box2detail {
+    position: relative;
+    left: 10px;
+}
+.album6box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album6box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album6box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album6box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum6 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum6:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum7 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album7box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album7box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album7box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album7box2detail {
+    position: relative;
+    left: 10px;
+}
+.album7box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album7box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album7box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album7box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum7 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum7:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum8 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album8box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album8box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album8box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album8box2detail {
+    position: relative;
+    left: 10px;
+}
+.album8box3 {
+    height: 100%;
+    padding: 0 15px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album8box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album8box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album8box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum8 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum8:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum9 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album9box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album9box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album9box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album9box2detail {
+    position: relative;
+    left: 10px;
+}
+.album9box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album9box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album9box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album9box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum9 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.trackalbum9:hover{
+    background-color: rgb(76, 76, 76);
+}
+.trackalbum10 {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.album10box1 {
+    height: 100%;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.album10box2 {
+    width: 300px;
+    display: flex;
+    align-items: center;
+}
+.album10box2img {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+}
+.album10box2detail {
+    position: relative;
+    left: 10px;
+}
+.album10box3 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.album10box4 {
+    height: 100%;
+    width: 100px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+i.fa-solid.fa-circle-check::before{
+    position: relative;
+    left: 30px;
+    color: aquamarine;
+}
+.album10box5 {
+    height: 100%;
+    display:flex ;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+}
+.album10box6 {
+    height: 100%;
+    padding: 0 10px;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.trackalbum10:hover{
+    background-color: rgb(76, 76, 76);
+}

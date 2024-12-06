@@ -1,0 +1,162 @@
+.centerpartfooter{
+    height: 350px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.centerpartfooter a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.centerpartfooter a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    font-weight: bold;
+}
+.centerpart a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.companyfooter {
+    height: 200px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.communtiesfooter{
+    height: 200px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.linksfooter {
+    height: 200px;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.planfooter{
+    height: 260px;
+    width: 110px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.iconfooter{
+    height: 200px;
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;   
+    position: relative;
+    top: 10px;
+}
+.icon1 {
+    height: 35px;
+    width: 35px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: 0;
+    color: white;
+    background-color: rgb(40,40,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon1:hover{
+    background-color: rgb(59,59,59);
+}
+.icon2{
+    height: 35px;
+    width: 35px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: 0;
+    color: white;
+    background-color: rgb(40,40,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon2:hover{
+    background-color: rgb(59,59,59);
+}
+.icon3{
+    height: 35px;
+    width: 35px;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    border: 0;
+    color: white;
+    background-color: rgb(40,40,40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon3:hover{
+    background-color: rgb(59,59,59);
+}
+.companyhead1 {
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.communtieshead1{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.linkshead1{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.planhead1{
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.centerpart2endfooter1 {
+    height: 100px;
+    width: 700px;
+    border-top: 1px solid rgb(170, 170, 170);
+    position: relative;
+    left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+    margin-bottom: 20px;
+}
+.centerpart2endfooter1 a {
+    font-weight: bold;
+    font-size: .9rem;
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+}
+.centerpart2endfooter1 a:hover{
+    color: white;
+}
+.centerpartfooter {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}

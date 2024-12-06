@@ -1,0 +1,683 @@
+.playlistalbums1{
+    height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.centermain {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+}
+.centerpart1 {
+    height: 100vh;
+    width: 29%;
+    border:0;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+
+}
+.centerpart1header{
+    height: 65px;
+    display: flex;
+}
+.part1headerpoint1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+    position: relative;
+    left: 30px;
+}
+i.fa-solid.fa-book::before {
+    height: 20px;
+    width: 20px;
+    color: white;
+    
+}
+.part1headerpoint1 pre {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+
+div.part1headerpoint2{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 100px;
+}
+.part1header2 {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+.part1header2:hover .newfolder {
+    display: initial;
+}
+i.fa-solid.fa-plus::before{
+    font-size: 1.1rem;
+    color: white;
+    margin-left: 7px;
+}
+i.fa-solid.fa-arrow-right::before{
+    font-size: 1.1rem;
+    color: white;
+    margin-right: 20px;
+}
+.centerpart2 {
+    height: 600px;
+    width: 740px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+.centerpart3 {
+    height: 600px;
+    width: 380px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(20, 20, 20);
+}
+.newfolder {
+    width: 270px;
+    position: relative;
+    top: 65px;
+    right: 195px;
+    border-radius: 10px;
+    background-color:rgb(40, 40, 40) ;
+    display: none;
+}
+.newfolder1 {
+    height: 45px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color:rgb(40, 40, 40) ;
+}
+.newfolder1 pre {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .75rem;
+}
+i.fa-solid.fa-music::before{
+    font-size: 20px;
+    color: white;
+}
+.newfolder2 {
+    height: 45px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:rgb(40, 40, 40) ;
+}
+.newfolder2 pre {
+    color: white;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: .75rem;
+}
+i.fa-regular.fa-folder::before{
+    font-size: 20px;
+    color: white;
+}
+.playlist{
+    width: 330px;
+    display: flex;
+
+    
+}
+.playlistsub {
+    display: flex;
+    margin-left: 10px;
+}
+.playlist1{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    display: none;
+}
+i.fa-solid.fa-xmark::before{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    top: 5px;
+    left: 7px;
+}
+.playlist2 {
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(40, 40, 40) ;
+    border-radius: 30px;
+    
+}
+.playlistsub:hover .playlist1 {
+    display: initial;
+}
+.playlistsub:hover .playlist3{
+    display: initial;
+}
+.playlist3{
+    height: 30px;
+    width: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(40, 40, 40) ;
+    border-radius: 30px;
+    margin-left: 10px;
+    
+    display: none;
+}
+.playlist3 p {
+    position: relative;
+    top: 5px;
+}
+.playlist4 {
+    height: 30px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(40, 40, 40) ;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.searchcenter {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+i#searchsongsub.fa-solid.fa-magnifying-glass::before {
+    font-size: 1.2rem;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.searchsong {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.point1search {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+}
+.inputsearch {
+    height: 40px;
+    width: 160px;
+    text-align: center;
+    border-radius: 10px;
+    border: 0;
+    position: relative;
+    left: 25px;
+    background-color:rgb(20,20,20) ;
+    display: none;
+}
+.point1search:hover .inputsearch{
+    display: initial;
+    background-color:rgb(40, 40, 40) ;
+}
+.point1search:hover .searchsong{
+    background-color:rgb(40, 40, 40) ;
+}
+.point1search:hover{
+    background-color:rgb(40, 40, 40) ;
+}
+
+input::placeholder {
+    font-size: .9rem;
+    color: white;
+    border: 0;
+}
+div.sortsview {
+    width: 110px;
+    position: relative;
+    border: 0;
+    top: 28px;
+    right: 38px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: .7rem;
+    display: none;
+}
+.recents1:hover .sortsview {
+    transform: scale(1.2);
+    display: initial;
+}
+
+.recents1:hover .sortsview {
+    background-color: rgb(40, 40, 40);
+}
+.sorts {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.sorts1 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.sorts2 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.sorts3 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.sorts4 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.view {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.view1 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+i.fa-solid.fa-bars::before{
+    margin-right: 5px;
+}
+.view2 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+i.fa-solid.fa-list::before{
+    margin-right: 5px;
+}
+.view3 {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+i.fa-solid.fa-table-cells-large::before{
+    margin-right: 5px;
+}
+.recents1 {
+    height: 40px;
+    width: 80px;
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 68px;
+    font-size: 1.1rem;
+    color: white;
+    transition: 2s;
+}
+.recenttext {
+    width: 40px;
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    left: 5px;
+}
+i.fa-solid.fa-caret-down::before {
+    font-size: 20px;
+    position: relative;
+    left: 63px;
+    bottom: 12px;
+}
+
+.album1 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album1:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg1{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext1 {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub1 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+    
+}
+.albumtexttopic1 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
+.album2 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album2:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg2{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext2 {
+    height: 50px;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub2 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+    
+}
+.albumtexttopic2 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
+.album3 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album3:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg3{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext3 {
+    height: 50px;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub3 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+    
+}
+.albumtexttopic3 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
+.album4 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album4:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg4{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext4 {
+    height: 50px;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub4 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+    
+}
+.albumtexttopic4 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
+.album5 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album5:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg5{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext5 {
+    height: 50px;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub5 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+    
+}
+.albumtexttopic5 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
+.album6 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album6:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg6{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext6 {
+    height: 50px;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub6 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+    
+}
+.albumtexttopic6 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
+.album7 {
+    height: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    background-color:rgb(20, 20, 20);
+}
+.album7:hover {
+    background-color:rgb(40, 40, 40) ;
+}
+.albumimg7{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color:rgb(58, 58, 244) ;
+}
+.albumtext7 {
+    height: 50px;
+    display: flex;
+    line-height: 22px;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 10px;
+}
+.albumtexttopicsub7 {
+    color: rgb(160, 160, 160);
+    font-size: .8rem;
+}
+.albumtexttopic7 {
+    color: white;
+    margin-top: 3px;
+}
+i.fa-thin.fa-heart::before{
+    font-size: 40px;
+}
